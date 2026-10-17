@@ -1,0 +1,425 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"w",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/qmt_tool/routes/web.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/agent_performance_report.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/monthly_trending_report.blade.php",
+		"/C/xampp/htdocs/qmt_tool/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/new_agent_compliance.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/shared/left_menu.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/js/components/ClientAgentWiseReport.vue",
+		"/C/xampp/htdocs/qmt_tool/resources/js/components/ClientDispositionWiseReport.vue",
+		"/C/xampp/htdocs/qmt_tool/resources/js/components/ClientPartnerDashboard.vue",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/ajax_view/agent_performance_ajax.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/ajax_view/mtr_ajax_sub_parameter_wise.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/ajax_view/mtr_ajax_parameter_wise.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/ajax_view/mtr_ajax_agent_wise.blade.php",
+		"/C/xampp/htdocs/qmt_tool/public/assets/app/custom/general/crud/datatables/basic/scrollable.js",
+		"/C/xampp/htdocs/qmt_tool/public/assets/vendors/custom/datatables/datatables.bundle.js",
+		"/C/xampp/htdocs/qmt_tool/.env.example",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/client_agent_wise_report.blade.php",
+		"/C/xampp/htdocs/qmt_tool - Copy/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/qmt_tool/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/xampp/htdocs/qmt_tool - Copy/app/Http/Controllers/HomeController_b1.php",
+		"/C/xampp/htdocs/qmt_tool/app/Audit.php",
+		"/C/xampp/htdocs/qmt_tool/app/QmSheetParameter.php",
+		"/C/xampp/htdocs/qmt_tool/app/QmSheet.php",
+		"/C/xampp/htdocs/qmt_tool/app/RawData.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/rebuttal_status_report.blade.php",
+		"/C/xampp/htdocs/qmt_tool/app/Exports/AgentQuartileExport.php",
+		"/C/xampp/htdocs/qmt_tool - Copy/resources/views/reports/agent_performance_report.blade.php",
+		"/C/Users/QD1346/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/BA452JM4/HomeController.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/DepartureController.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/DepartmentController.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/SurveyController.php",
+		"/C/xampp/htdocs/qmt_tool/.env",
+		"/C/xampp/htdocs/qmt_tool - Copy/.env",
+		"/C/xampp/htdocs/qmt_tool - Copy/routes/web.php",
+		"/C/xampp/htdocs/qmt_tool - Copy/app/Exports/AgentQuartileExport.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/js/components/horizontalBarComponent.vue",
+		"/C/xampp/htdocs/qmt_tool/app/Http/Controllers/HomeController_backup.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/ajax_view/monthly_trending_ajax.blade.php",
+		"/C/xampp/htdocs/qmt_tool/public/assets/demo/default/base/style.bundle.css",
+		"/C/xampp/htdocs/qmt_tool/resources/js/components/ClientPartnerDashboard - Copy.vue",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/ajax_view/backup_month_trend.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/js/components/ParameterTrendingReport.vue",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/parameter_trending_report.blade.php",
+		"/C/Users/QD1346/Downloads/todo-1.json",
+		"/C/xampp/htdocs/quick-survey/app/Imports/SurveyUserImport.php",
+		"/C/xampp/htdocs/qmt_tool/app/Exports/UsersExport.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/exports/agent_performance_report.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/shared/table_css.blade.php",
+		"/C/xampp/htdocs/qmt_tool/app/Imports/RcaImport.php",
+		"/C/xampp/htdocs/qmt_tool/app/AuditResult.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/dashboards/client_partner_wise_dashboard.blade.php",
+		"/C/xampp/htdocs/test1/test.php",
+		"/C/xampp/htdocs/qmt_tool/resources/js/components/AuditComponent.vue",
+		"/C/xampp/htdocs/qmt_tool/resources/views/audit/render_sheet.blade.php",
+		"/C/xampp/htdocs/qmt_tool/app/Http/Controllers/AuditController.php",
+		"/C/xampp/htdocs/qmt_tool/bootstrap/app.php",
+		"/C/xampp/htdocs/qmt_tool/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+		"/C/xampp/htdocs/qmt_tool/resources/js/components/ClientWelcomeDashboard.vue",
+		"/C/xampp/htdocs/qmt_tool/resources/views/home.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/dashboards/client_dashboard.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/reports/client_disposition_wise_report.blade.php",
+		"/C/xampp/htdocs/qmt_tool/app/Imports/RawDataImport.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/rebuttal/rebuttal_status.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/rebuttal/raised_rebuttal_list.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/js/app.js",
+		"/C/xampp/htdocs/qmt_tool/package.json",
+		"/C/xampp/htdocs/qmt_tool/resources/views/shared/table_js.blade.php",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/xampp/htdocs/qmt_tool/webpack.mix.js",
+		"/C/xampp/htdocs/qmt_tool/public/css/app.css",
+		"/C/xampp/htdocs/qmt_tool/resources/js/bootstrap.js",
+		"/C/xampp/htdocs/qm_tool/.env.example",
+		"/C/xampp/htdocs/qmt_tool/node_modules/cross-env/dist/bin/cross-env.js",
+		"/C/xampp/htdocs/qmt_tool/public/js/app.js",
+		"/C/xampp/htdocs/qmt_tool/vendor/laravel/telescope/resources/js/screens/views/index.vue",
+		"/C/xampp/htdocs/qmt_tool/resources/views/client/create.blade.php",
+		"/C/xampp/htdocs/qmt_tool/resources/views/company/list.blade.php",
+		"/C/xampp/htdocs/qmt_tool/package-lock.json",
+		"/C/xampp/htdocs/qmt_tool/config/database.php",
+		"/C/xampp/htdocs/qmt_tool/env_backup_live",
+		"/C/xampp/htdocs/quick-survey/.env",
+		"/C/xampp/htdocs/qmt_tool/config/cache.php",
+		"/C/xampp/htdocs/qmt_tool/app/Http/Controllers/ClientController.php",
+		"/C/xampp/htdocs/quick-survey/routes/web.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/shared/left_menu.blade.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/participant/create_participant.blade.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/participant/batch_list.blade.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/participant/participant_list.blade.php",
+		"/C/xampp/htdocs/quick-survey/app/Participant.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/survey/list.blade.php",
+		"/C/xampp/htdocs/quick-survey/app/Survey.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/participant/list.blade.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/WebController.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/unsubscribers.blade.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/CronController.php",
+		"/C/xampp/htdocs/quick-survey/app/SurveyLog.php",
+		"/C/xampp/htdocs/quick-survey/app/MailLog.php",
+		"/C/xampp/htdocs/quick-survey/app/MailManagement.php",
+		"/C/xampp/htdocs/survey_live/app/Http/Controllers/DepartmentController.php",
+		"/C/xampp/htdocs/survey_live/app/Imports/SurveyUserImport.php",
+		"/C/xampp/htdocs/survey_live/app/Http/Controllers/ReportController.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/survey_report/department_survey_report.blade.php",
+		"/C/xampp/htdocs/survey_live/app/Http/Controllers/SurveyController.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/ReportController.php",
+		"/C/xampp/htdocs/survey_live/resources/views/survey/public_survey_question.blade.php",
+		"/C/xampp/htdocs/survey_live/resources/views/department_survye_public.blade.php",
+		"/C/xampp/htdocs/survey_live/app/Http/Controllers/DepartureController.php",
+		"/C/xampp/htdocs/survey_live/.env",
+		"/C/xampp/htdocs/survey_live/app/Http/Controllers/Auth/LoginController.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/survey_live/app/Http/Controllers/WebController.php",
+		"/C/xampp/htdocs/survey_live/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/xampp/htdocs/survey_live/app/Http/Controllers/Auth/VerificationController.php",
+		"/C/xampp/htdocs/quick-survey/app/Department.php",
+		"/C/xampp/htdocs/quick-survey/app/Batch.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/participant/uploader.blade.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/MarketResearchSurveyController.php",
+		"/C/xampp/htdocs/quick-survey/app/SurveyLogResult.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/survey/after_public_survey_submit.blade.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/survey/public_survey_question.blade.php",
+		"/C/xampp/htdocs/quick-survey/app/Http/Controllers/CronControllerBackup.php",
+		"/C/xampp/htdocs/quick-survey/resources/views/emails/temp.blade.php",
+		"/C/xampp/htdocs/quick-survey/app/Mail/PreSurveyCommunication.php",
+		"/C/xampp/htdocs/quick-survey/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php",
+		"/C/xampp/htdocs/quick-survey/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php",
+		"/C/xampp/htdocs/quick-survey/vendor/laravel/framework/src/Illuminate/Mail/PendingMail.php"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mtr_data_agent_wise",
+			"mtr_data_parameter_wise",
+			"mtr_data_sub_parameter_wise",
+			"mtr_data_parameter_wise",
+			"get_agent_report",
+			"get_partner_lob",
+			"lob",
+			"onPartnerChange",
+			"parameter_compliance",
+			"get_client_partner_dashboard_data",
+			"process_id",
+			"get_partner_locations",
+			"get_loged_in_client_partners",
+			"get_partner_lob",
+			"onPartnerChange",
+			"all_process",
+			"get_loged_in_client_partners",
+			"kt_table_2",
+			"get_client_agent_wise_report_data",
+			"client",
+			"selected_location",
+			"get_loged_in_client_partners",
+			"get_partner_lob",
+			"new_agent_compliance",
+			"get_loged_in_client_partners",
+			"new_agent_compliance_report",
+			"audit_results",
+			"get_partner_lob",
+			"lob",
+			"get_client_agent_wise_report_data",
+			"new_agent_compliance",
+			"get_partner_locations1",
+			"rebuttal_status_report",
+			"agent_performance_report_view",
+			"agent_performance_report",
+			"rebuttal_status_report",
+			"get_client_agent_wise_report_data",
+			"agent_performance_report_view",
+			"agent_performance_report",
+			"rebuttal_status_report",
+			"AgentQuartileExport",
+			"Excel",
+			"get_loged_in_client_partners",
+			"monthly_trending_report_view",
+			"rebuttal_status_report",
+			"get_agent_report",
+			"testExcel",
+			"get_rdr_client_partner_location_list",
+			"get_client_agent_wise_report_data",
+			"get_agent_report",
+			"testExcel",
+			"get_agent_report",
+			"testExcel",
+			"test_excel",
+			"agent_performance_report_view",
+			"agent_performance_report",
+			"logged_in_user_total_notifications",
+			"get_agent_report",
+			"get_agent_report()",
+			"agent_performance_report_view",
+			"array_sort_by_column",
+			"get_agent_report1",
+			"array_sort_by_column",
+			"array_sort_by",
+			"get_agent_report",
+			"raw dump report filters starts",
+			"get_parameter_trending_report_data",
+			"get_client_partner_dashboard_data",
+			"get_client_agent_wise_report_data",
+			"despositions",
+			"get_client_disposition_wise_report_data",
+			"spws",
+			"chartOptionsDisposition",
+			"Disposition Wise Compliance",
+			"get_client_partner_dashboard_data",
+			"get_agent_report",
+			"get_client_partner_dashboard_data",
+			"get_client_agent_wise_report_data",
+			"get_client_partner_dashboard_data",
+			"all_partner_process_list",
+			"selected_location",
+			"get_partner_locations",
+			"pws",
+			"client_name",
+			"all_partners_list",
+			"client_name",
+			"all_partners_list",
+			"get_loged_in_client_partners",
+			"all_partners_list",
+			"clientId",
+			"partner_id",
+			"onPartnerChange",
+			"all_partners_list",
+			"get_loged_in_client_partners",
+			"all_partners_list",
+			"client_detail_dashboard",
+			"client_detail",
+			"mtr_data_sub_parameter_wise",
+			"get_parameter_trending_report_data",
+			"audit_parameter_result",
+			"get_client_disposition_wise_report_data",
+			"monthly_trending_report_data_parameter_wise",
+			"monthly_trending_report_data",
+			"get_client_disposition_wise_report_data",
+			"monthly_trending_report_data",
+			"client_detail_dashboard",
+			"client_detail",
+			"row",
+			"parameter_trending_report",
+			"reports",
+			"get_parameter_trending_report_data",
+			"agent_performance_report1",
+			"monthly_trending_report",
+			"process_id",
+			"get_parameter_trending_report_data",
+			"\t<",
+			"blockPage",
+			"get_agent_report",
+			"Excel",
+			"get_agent_report",
+			"audit_results",
+			"get_client_agent_wise_report_data",
+			"get_client_disposition_wise_report_data",
+			"GET",
+			"get_client_disposition_wise_report_data",
+			"GET",
+			"table_body",
+			"getReport"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "RawDataImport.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

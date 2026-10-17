@@ -1,0 +1,690 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--[if gte mso 9]>
+    <xml>
+        <x:ExcelWorkbook>
+            <x:ExcelWorksheets>
+                <x:ExcelWorksheet>
+                    <x:Name><![CDATA[ProcessWiseAuditCount]]></x:Name>
+                    <x:WorksheetOptions>
+                        <x:Print>
+                            <x:ValidPrinterInfo/>
+                        </x:Print>
+                    </x:WorksheetOptions>
+                </x:ExcelWorksheet>
+            </x:ExcelWorksheets>
+        </x:ExcelWorkbook>
+    </xml>
+    <![endif]-->
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<table style='border:1px solid black; border-collapse: collapse;'>
+       <tr>
+           <th style='border:1px solid black; text-align: center; background-color: #FFE4C4;'>QA Name</th>
+           <th style='border:1px solid black; text-align: center; background-color: #FFE4C4;'>Partner</th>
+           <th style='border:1px solid black; text-align: center; background-color: #FFE4C4;'>Process</th>
+           <th style='border:1px solid black; text-align: center; background-color: #FFE4C4;'>Audit Count</th>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Rahul Gupta</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - FD Service Audit sheet (Imperative Pune)</td><td style='border:1px solid black; text-align: center;'>1</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rahul Gupta Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>1</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='4'>Dhanush</td><td style='border:1px solid black; text-align: center;'>Cogent</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>8</td></tr><tr><td style='border:1px solid black; text-align: center;'>Ison - BFL</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr><td style='border:1px solid black; text-align: center;'>ATPL</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>3</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>Internal BAU audits</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Dhanush Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>22</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='3'>Himashree Das</td><td style='border:1px solid black; text-align: center;'>ATPL</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>17</td></tr><tr><td style='border:1px solid black; text-align: center;'>Stream Digital</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>Internal BAU audits</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Himashree Das Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>24</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Supriya Vinayak Sondkar</td><td style='border:1px solid black; text-align: center;'>Customer Service - BFL - ATPL</td><td style='border:1px solid black; text-align: center;'>BFL Customer Support - Non-Voice</td><td style='border:1px solid black; text-align: center;'>48</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Supriya Vinayak Sondkar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>48</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vaishnavi Ramesh Gunaware Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='3'>Dheeraj Umesh Ajure</td><td style='border:1px solid black; text-align: center;'>Cogent</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>8</td></tr><tr><td style='border:1px solid black; text-align: center;'>ATPL</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>Internal BAU audits</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Dheeraj Umesh Ajure Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>25</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Amin Razzak Khan</td><td style='border:1px solid black; text-align: center;'>ATPL</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Amin Razzak Khan Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>15</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Adarsh Pandharpurkar</td><td style='border:1px solid black; text-align: center;'>Cogent</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr><td style='border:1px solid black; text-align: center;'>ATPL</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>1</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Adarsh Pandharpurkar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>16</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Basavraj Bhimarao Pujari Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Jyoti Koli</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>31</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Jyoti Koli Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>31</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>R Vikneshwaran Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Shravani Boddhul</td><td style='border:1px solid black; text-align: center;'>Cogent</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>Internal BAU audits</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shravani Boddhul Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>25</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Prakashraj Saravanan</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>35</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Prakashraj Saravanan Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>35</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Laxmi</td><td style='border:1px solid black; text-align: center;'>Customer Service - BFL - ATPL</td><td style='border:1px solid black; text-align: center;'>BFL Customer Support - Voice</td><td style='border:1px solid black; text-align: center;'>40</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Laxmi Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>40</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Prasanjeet Sawant</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>35</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Prasanjeet Sawant Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>35</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Vaibhav Appasaheb Zanjad</td><td style='border:1px solid black; text-align: center;'>Customer Service - BFL - ATPL</td><td style='border:1px solid black; text-align: center;'>BFL Customer Support - Non-Voice</td><td style='border:1px solid black; text-align: center;'>43</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vaibhav Appasaheb Zanjad Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>43</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Praneet Kamble Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Asfiya Khan</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>32</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Asfiya Khan Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>32</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Subir Barua</td><td style='border:1px solid black; text-align: center;'>Stream Digital</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>8</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>Internal BAU audits</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Subir Barua Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>18</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Apali Thakre Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>kejiya Rayappa Nagirikanti Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vignesh R1 Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>testqa1 Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Nikita Kagankar</td><td style='border:1px solid black; text-align: center;'>Cogent (DMS)</td><td style='border:1px solid black; text-align: center;'>DMS_Collection - Audit Sheet V.3</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr><td style='border:1px solid black; text-align: center;'>Stream Digital (DMS)</td><td style='border:1px solid black; text-align: center;'>DMS_Collection - Audit Sheet V.3</td><td style='border:1px solid black; text-align: center;'>26</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Nikita Kagankar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>35</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Nandini Kumari</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC- IVR Collections (Streams)</td><td style='border:1px solid black; text-align: center;'>11</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Nandini Kumari Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>11</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sudhir singh Raghuvanshi Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Alexander Pidathala</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>34</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Alexander Pidathala Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>34</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Praveen Sherikar</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>34</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Praveen Sherikar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>34</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Uma S Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Begam A Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Akula Vara Prasad Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>K Arifa Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Akash Tiwari Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Shakti Mourya</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>30</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shakti Mourya Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shubham Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Husna</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Husna Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>20</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='3'>Sameer Khan</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>18</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>1</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sameer Khan Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>24</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Aradhna Pathak</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>23</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Aradhna Pathak Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>28</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Sweety Katiyar</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>18</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>19</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sweety Katiyar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>37</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Poonam Morya</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Poonam Morya Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>20</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Isha Gupta Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Aman Sharma Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Rukhsar Moin</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rukhsar Moin Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>25</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sneha B Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Viji PV</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>26</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>8</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Viji PV Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>34</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Narike Naveena Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Yuvankumar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Sanjay S</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>11</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sanjay S Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>15</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Saranya G</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Saranya G Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>15</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Balaji U Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Lakhwinder Singh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='3'>Gunjan Sharma</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>11</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Gunjan Sharma Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>20</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Rimpa Kumari</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>35</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rimpa Kumari Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>35</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Rakesh Kumar Lenka</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>39</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rakesh Kumar Lenka Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>41</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Priyanka Kumari</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>11</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Priyanka Kumari Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>16</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Dipti Tanty</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Dipti Tanty Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>2</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Wanita Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Preety Sharma</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Preety Sharma Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>13</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Sushant Sanjay Jadhav</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>18</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sushant Sanjay Jadhav Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>18</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Priyanka Anup Shinde</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>27</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Priyanka Anup Shinde Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>27</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Gauri Rajendra Hange</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>18</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Gauri Rajendra Hange Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>18</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shekhar Dilip Gaikwad Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sowmya R Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Swapna S Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Swasthika Jain</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>17</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Swasthika Jain Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>17</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='3'>Shalini Shankar</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>21</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>8</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shalini Shankar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>39</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='3'>Akshatha A</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>26</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>6</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>17</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Akshatha A Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>49</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Anushree S Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Bhavitha Ganiga</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Bhavitha Ganiga Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>10</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Kavya A Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Achari Revathi Pandurangan</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Achari Revathi Pandurangan Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>14</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Amey Mandar Kulkarni</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>12</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Amey Mandar Kulkarni Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>12</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Pratiksha Lushte</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>30</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Pratiksha Lushte Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Surekha Rohit Dhotre</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>18</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Surekha Rohit Dhotre Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>18</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Archana Sonkamble</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Archana Sonkamble Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>15</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Sanjana Santosh Bhate</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>49</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sanjana Santosh Bhate Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>49</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Vijaya Anil Bingewar</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>19</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>1</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vijaya Anil Bingewar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>20</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Aarti Kuldeepsingh Sahota Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Mayur Vinod Biwal</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>24</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mayur Vinod Biwal Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>24</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Nikhil Pradipkumar Shendge Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Kavita Kamble</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>6</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>17</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Kavita Kamble Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>23</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Gayatri Sukhdev Jadhav Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Pratik Sharadrao Pisudde Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Aarti Bhausaheb Matang</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>22</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Aarti Bhausaheb Matang Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>24</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Priyanka Dayanand Bhosale</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>8</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Priyanka Dayanand Bhosale Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>8</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Nilofar Najir Badami</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>7</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Nilofar Najir Badami Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>16</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Sneha Ramesh Chitken</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sneha Ramesh Chitken Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>9</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rajeshwari Mani Neelkandan Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Harvindar Kaur Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Rekha prajapati</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rekha prajapati Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>2</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='3'>Sangitaben &nbsp;Chhaganbhai Nayak</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sangitaben &nbsp;Chhaganbhai Nayak Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>27</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Valvi Rahulkumar Ajabsing</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>14</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Valvi Rahulkumar Ajabsing Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>14</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Malde Heena Nagraj</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>13</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Malde Heena Nagraj Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>15</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Shweta Yadav</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Insurance Audit Sheet - BFL Partner</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>6</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shweta Yadav Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>10</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vrushali Yogesh Shitole 1 Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Nandhini Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Lata Rajpurohit Singh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Deshmukh Waheed Mukhid Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Aman Kulange Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Harshvardhan Tayde Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sohail Sayyad Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sandip Lohar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Bhushan Ashok Thorat</td><td style='border:1px solid black; text-align: center;'>ATPL</td><td style='border:1px solid black; text-align: center;'>UPST PLCS T1</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Bhushan Ashok Thorat Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>20</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Kalika</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>34</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Kalika Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>34</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Rahima</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>25</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rahima Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mumtaz Yusuf Shaikh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>babeta.bisht@bizsupportc1.com</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>35</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>babeta.bisht@bizsupportc1.com Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>35</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Bandaru Thrimurthy Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Dharmendra S Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Alfiya Rafik Shirgave</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>3</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Alfiya Rafik Shirgave Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>18</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Shrinidhi J C</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>25</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shrinidhi J C Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>K Bhargavi</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>16</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>29</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>K Bhargavi Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>45</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Sudha Singh</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sudha Singh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>14</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shravani Batala Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mohammed Thouseef Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Yashwanth Gajarla</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>35</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Yashwanth Gajarla Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>35</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Eswari Janagavel</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL -BOT -Audit Sheet-V3.0</td><td style='border:1px solid black; text-align: center;'>36</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Eswari Janagavel Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>36</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Abin Bovas Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>D Sneha Latha</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>D Sneha Latha Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>9</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>H Amrutha</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>19</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>11</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>H Amrutha Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Abir Das Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Karthick</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>25</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Karthick Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Diksha Ramesh Bramhane</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>26</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Diksha Ramesh Bramhane Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Vaishnavi Bablu Pawar</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vaishnavi Bablu Pawar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>10</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Arvinder Singh Chawla Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Preeti Naresh Pathade</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>11</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Preeti Naresh Pathade Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>13</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sasna Kanakath Thazha Kuniyil Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Sumanth R</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>90</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sumanth R Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>110</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shruti Kashyap Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Trupti Salve</td><td style='border:1px solid black; text-align: center;'>Stream Digital (DMS)</td><td style='border:1px solid black; text-align: center;'>DMS_Collection - Audit Sheet V.3</td><td style='border:1px solid black; text-align: center;'>17</td></tr><tr><td style='border:1px solid black; text-align: center;'>Cogent (DMS)</td><td style='border:1px solid black; text-align: center;'>DMS_Collection - Audit Sheet V.3</td><td style='border:1px solid black; text-align: center;'>16</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Trupti Salve Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>33</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Monika Bharad Nikrad</td><td style='border:1px solid black; text-align: center;'>Customer Service - BFL - ATPL</td><td style='border:1px solid black; text-align: center;'>BFL Customer Support - Non-Voice</td><td style='border:1px solid black; text-align: center;'>59</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Monika Bharad Nikrad Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>59</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Yasmeen Rais Khan</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>17</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Yasmeen Rais Khan Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>27</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Kapil Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Poornima S Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>T Aravinth</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>1</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>T Aravinth Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>16</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sushama Raghunath Dhumal&nbsp; Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rutuja Dilip Phapale Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Mahak Shankarka</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>3</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>7</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mahak Shankarka Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>10</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sagar Khajekar1 Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Mohd. Fareed Islam</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>6</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>23</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mohd. Fareed Islam Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>29</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Sneha</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>22</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sneha Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>22</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>SWATHI</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>15</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>16</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>SWATHI Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>31</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Vishnu K S</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>22</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>8</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vishnu K S Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Mani Hansda</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mani Hansda Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>4</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Sonali Jagtap</td><td style='border:1px solid black; text-align: center;'>Customer Service - BFL - ATPL</td><td style='border:1px solid black; text-align: center;'>BFL Customer Support - Non-Voice</td><td style='border:1px solid black; text-align: center;'>43</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sonali Jagtap Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>43</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shivshankar Reve Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Unnikrishnan V Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Om Kasturi</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>DMS Collection BOT V1.3</td><td style='border:1px solid black; text-align: center;'>52</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Om Kasturi Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>52</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Nagraj Jagannath Soma</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>11</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Nagraj Jagannath Soma Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>15</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sangeeta Murkute Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Sakshi Lashkare</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC- CUSTOMER REDRESSAL (ATPL)</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sakshi Lashkare Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>4</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Ashwini Phadtare</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC- CUSTOMER REDRESSAL (ATPL)</td><td style='border:1px solid black; text-align: center;'>1</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ashwini Phadtare Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>1</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ambika Panchal Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Devanshi Shah</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>BFL - SAL PL BOT - V1</td><td style='border:1px solid black; text-align: center;'>45</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Devanshi Shah Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>45</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sheik Abdul Rehaman Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Dhanyakshi</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Email L1, Email L2, Email L3 (Mangalore)</td><td style='border:1px solid black; text-align: center;'>10</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Dhanyakshi Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>10</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Ayush Katheria</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ayush Katheria Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>25</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Pavithra P</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>30</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>3</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Pavithra P Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>33</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Nitikesh Sangam Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sachin Wagh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Mayur Thakre</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>Loan Cancelation</td><td style='border:1px solid black; text-align: center;'>80</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mayur Thakre Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>80</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Harshad Jayakannu Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vedhavalli R Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Pratiksha Chaudhari Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Aniket Raghuvir Nanaware</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Onboarding (ATPL)</td><td style='border:1px solid black; text-align: center;'>60</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Aniket Raghuvir Nanaware Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>60</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Pranali Pradip Pandhre</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC- PSS (ATPL)</td><td style='border:1px solid black; text-align: center;'>11</td></tr><tr><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Bajaj Pay L1 Back office CRQ (ATPL)</td><td style='border:1px solid black; text-align: center;'>4</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Pranali Pradip Pandhre Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>15</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Dipti Nitin Tavhare Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Saakshi Gaurav Dhumal</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - NCH &RSM (ATPL)</td><td style='border:1px solid black; text-align: center;'>41</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Saakshi Gaurav Dhumal Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>41</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Deepthika Bangera Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Lamisha</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Banking V1(Mangalore)</td><td style='border:1px solid black; text-align: center;'>30</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Lamisha Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Zainaba Saloofa</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Cogent Merchant Service Non Voice (Mangalore)</td><td style='border:1px solid black; text-align: center;'>30</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Zainaba Saloofa Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Amit Bareilly</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Payment KYC (Bareilly)</td><td style='border:1px solid black; text-align: center;'>60</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Amit Bareilly Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>60</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rahul Nadar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sunil Dhumal Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Tanmay Verma Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Sanjay Pratap Singh</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - L1 & L3 (Streams)</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sanjay Pratap Singh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>9</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rohit Kumar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ashish Kumar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Abhijeet Kumar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Ritika Balu Pardeshi</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC- DMSGRO L3 (ATPL)</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ritika Balu Pardeshi Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>20</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Kiran Dnyaneshwar Ingulkar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sneha Balkrishna More Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Dhirendra Lambodar Mandal Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Kajal Sheetaldeen Saroj</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Bajaj Pay L1 Back office CRQ (ATPL)</td><td style='border:1px solid black; text-align: center;'>13</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Kajal Sheetaldeen Saroj Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>13</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vikram Kriti Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ronald Cresal Pereira Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Jyoti Mahadev Gadhave</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>12</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Jyoti Mahadev Gadhave Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>12</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Syed Shamsheer Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Pooja Patil Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Ritika Kumari</td><td style='border:1px solid black; text-align: center;'>Customer Service - BFL - ATPL</td><td style='border:1px solid black; text-align: center;'>BFL Customer Support - Non-Voice</td><td style='border:1px solid black; text-align: center;'>50</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ritika Kumari Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>50</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Narendra Pawar1</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>Banking V1</td><td style='border:1px solid black; text-align: center;'>80</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Narendra Pawar1 Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>80</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mala N Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Zeenat Akbar Shaikh</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC- DMSGRO L3 (ATPL)</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Zeenat Akbar Shaikh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>20</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Sharad Srivastav</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>21</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Sharad Srivastav Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>26</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Latha V</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>1</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Latha V Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>21</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Bhavya P</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Bhavya P Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>20</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Adabala Vijay Durga devi&nbsp;</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>20</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Adabala Vijay Durga devi&nbsp; Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>29</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Aftab Mehboob Alam Shaikh</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>9</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Aftab Mehboob Alam Shaikh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>9</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Vaishanavi Thakur</td><td style='border:1px solid black; text-align: center;'>Customer Service - BFL - ATPL</td><td style='border:1px solid black; text-align: center;'>BFL Customer Support - Non-Voice</td><td style='border:1px solid black; text-align: center;'>70</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Vaishanavi Thakur Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>70</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Ambika Mule</td><td style='border:1px solid black; text-align: center;'>Customer Service - BFL - ATPL</td><td style='border:1px solid black; text-align: center;'>BFL Customer Support - Non-Voice</td><td style='border:1px solid black; text-align: center;'>70</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ambika Mule Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>70</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Mehul Rai</td><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>Bureau</td><td style='border:1px solid black; text-align: center;'>80</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Mehul Rai Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>80</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Deepak Verma Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Arun Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Komal Mahadev Patil</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>1</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>13</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Komal Mahadev Patil Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>14</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Neha Parveen</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>26</td></tr><tr><td style='border:1px solid black; text-align: center;'>Internal</td><td style='border:1px solid black; text-align: center;'>NI / NE Audits</td><td style='border:1px solid black; text-align: center;'>3</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Neha Parveen Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>29</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Kirti Pillay Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Namrata Patole</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC- BO_CD (Imperative)</td><td style='border:1px solid black; text-align: center;'>71</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Namrata Patole Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>71</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Fathimath Akshida Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Shailesh</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>21</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Shailesh Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>21</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Prabhat Gupta Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Amit Warpe Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='2'>Korasikha Manikanta Durga Naveen Kumar</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Focused Audit - Partner</td><td style='border:1px solid black; text-align: center;'>5</td></tr><tr><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>18</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Korasikha Manikanta Durga Naveen Kumar Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>23</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Nitesh Vitthal Khadse</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>2</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Nitesh Vitthal Khadse Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>2</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>D Prathvi Prathvi Mallya1</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Insurance Non Voice (Mangalore)</td><td style='border:1px solid black; text-align: center;'>30</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>D Prathvi Prathvi Mallya1 Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>30</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Rashmitha B Jogi</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC - Email L1, Email L2, Email L3 (Mangalore)</td><td style='border:1px solid black; text-align: center;'>12</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Rashmitha B Jogi Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>12</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Uma Sivaji Rao</td><td style='border:1px solid black; text-align: center;'>BFL Partner Audits</td><td style='border:1px solid black; text-align: center;'>Partner QA Audit Sheet - BFL V1.3</td><td style='border:1px solid black; text-align: center;'>7</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Uma Sivaji Rao Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>7</td>
+       </tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Ganesh Nehate Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>0</td>
+       </tr><tr><td style='border:1px solid black; text-align: center;' rowspan='1'>Divya Mari</td><td style='border:1px solid black; text-align: center;'>Bajaj - Non-Sale Unit</td><td style='border:1px solid black; text-align: center;'>RCC- SELL OFF (ATPL)</td><td style='border:1px solid black; text-align: center;'>12</td></tr><tr>
+           <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'>Divya Mari Total</td>
+           <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>12</td>
+       </tr><tr>
+       <td style='border:1px solid black; text-align: center; background-color: #FFE4C4;' colspan='3'> Total Audits </td>
+       <td style='border:1px solid black; text-align: center;background-color: #FFE4C4;'>3491</td>
+        </tr></table>
+</body>
+</html>

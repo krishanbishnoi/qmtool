@@ -1,0 +1,1 @@
+<client-welcome-dashboard client-id="<?php if(Auth::user()->id == 42 || Auth::user()->id == 172 || Auth::user()->id == 198) { echo Crypt::encrypt(9); } else { echo Crypt::encrypt(Auth::user()->client_detail->id); } ?>"></client-welcome-dashboard>
