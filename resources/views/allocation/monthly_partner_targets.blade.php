@@ -43,8 +43,7 @@ with call id
                         <th >Process</th>
                         <th >UploadedBy</th>
                         <th >Upload Time</th>
-                        <th >Cycle</th>
-                        
+                        <th >Cycle</th>                        
                         <th >Excel File</th>
                         <th >Action</th>
 				</tr>

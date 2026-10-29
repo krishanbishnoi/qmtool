@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -188,7 +189,7 @@ Route::middleware(['auth'])->group(function () {
 
 	Route::get('profile', 'UserController@profile');
 
-	Route::patch('update_profile/{id}', 'UserController@updateProfile');
+	Route::post('update_profile/{id}', 'UserController@updateprofile')->name('profile.update');
 
 
 
@@ -950,8 +951,6 @@ Route::middleware(['auth'])->group(function () {
 
 		Route::post('qtl_report', 'QaTargetController@search_qtl_report')->name('qtl_report');
 
-
-
 		Route::get('qa_performance', 'QaTargetController@qa_performance');
 
 		Route::post('qa_performance', 'QaTargetController@qa_performance')->name('qa_performance');
@@ -960,7 +959,7 @@ Route::middleware(['auth'])->group(function () {
 
 		Route::get('qa_performance_matrix', 'QaTargetController@qa_performance_matrix');
 
-		Route::post('qa_performance_matrix', 'QaTargetController@qa_performance_matrix')->name('qa_performance_matrix');
+		// Route::post('qa_performance_matrix', 'QaTargetController@qa_performance_matrix')->name('qa_performance_matrix');
 	});
 
 
@@ -1050,7 +1049,7 @@ Route::middleware(['auth'])->group(function () {
 		Route::get('list', 'ClusterAccessController@get_user_list');
 
 		Route::get('{user_id}/details', 'ClusterAccessController@get_user');
-
+    
 		//Route::get('{week_id}/delete','ClusterAccessController@delete');
 
 	});

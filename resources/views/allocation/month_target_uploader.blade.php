@@ -17,7 +17,7 @@ Process action Monthly Target
       <div class="kt-portlet__head">
         <div class="kt-portlet__head-label">
           <h3 class="kt-portlet__head-title">
-            <p style="color:red">Please upload target in new format!</p>
+            <p style="color:rgb(13, 46, 197)">Please upload target in new format!</p>
          
           </h3>
         </div>
@@ -29,7 +29,7 @@ Process action Monthly Target
                   array(
                     'route' => 'upload_month_target', 
                     'class' => 'kt-form',
-                    'role'=>'form',
+                    'role'=>'form', 
                     'data-toggle'=>"validator",
                     'enctype'=>'multipart/form-data')
                   ) !!}
@@ -81,7 +81,7 @@ Process action Monthly Target
               <input type="file" name="raw_data_file" class="form-control" required/>
           </div>
           <span class="form-text text-muted">Max file size:- 50MB. File format:- .xlsx only</span>
-          <a class="btn btn-danger" href="/month_target_upload_sample.xlsx" download="munth_target_upload_sample"> Download Sample here</a>
+          <a class="btn btn-danger" href="/month_target_upload_sample.xlsx" download="month_target_upload_sample"> Download Sample here</a>
 
           
         </div>

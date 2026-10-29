@@ -29,7 +29,7 @@ List QA Performance Matrix
 		
 	</div>
 
-    {!! Form::open(
+    {{-- {!! Form::open(
                 array(
                 'route' => 'qa_performance_matrix', 
                 'class' => 'kt-form',
@@ -37,7 +37,7 @@ List QA Performance Matrix
                 'data-toggle'=>"validator",
                 'enctype'=>'multipart/form-data')
                 ) !!}
-        
+         --}}
 		<div class="kt-portlet__body">
             <div class = "row">
                 <div class="form-group col-md-6">

@@ -50,7 +50,7 @@ Route::middleware(['auth'])->group(function () {
 	Route::post('mark_read_notification','HomeController@mark_read_notification');
 
 	Route::get('profile','UserController@profile');
-	Route::patch('update_profile/{id}','UserController@updateProfile');
+	Route::patch('update_profile/{id}','UserController@updateprofile');
 	
 	Route::get('sendAddOnFeatureMail','UserController@sendAddOnFeatureMail');
 

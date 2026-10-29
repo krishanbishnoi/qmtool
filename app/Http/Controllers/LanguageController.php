@@ -41,7 +41,7 @@ class LanguageController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'company_id' => 'required',
-            'name' => 'required|regex:/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/'
+            'name' => 'required|regex:/^[A-Za-z0-9 _-]+$/'
         ]);
 
         if($validator->fails())
@@ -92,7 +92,7 @@ class LanguageController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'company_id' => 'required',
-            'name' => 'required|regex:/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/'
+            'name' => 'required|regex:/^[A-Za-z0-9 _-]+$/'
         ]);
 
         if($validator->fails())

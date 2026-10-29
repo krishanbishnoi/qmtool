@@ -273,39 +273,60 @@ class RandomizerController extends Controller
         return view('randomizer.view_samples',compact('data','sample_id'));
     }
 
-    public function final_output(Request $request){
-        $id = $request->sample_id;
-        $total_count = $request->total_count;
-       // echo $id; die;
-          $required_count = $request->required_count;
-        if($required_count <= $total_count){
-            $data_1 = DB::select("select rd.id as raw_data, rd.call_id, rd.client_id, rd.process_id FROM raw_data rd inner join 
-            randomizer_report rr on rd.id=rr.raw_data_id where rr.sample_id = '".$id."' order by rand() limit ".$required_count." ");
-        
-            foreach($data_1 as $value){
-                DB::table('final_outputs')->insert([
-                    'raw_data_id' => $value->raw_data,
-                    'call_id' => $value->call_id,
-                    'client_id' => $value->client_id, 
-                    'process_id' => $value->process_id,
-                    'sample_id' =>$id
-                ]);
-
-                DB::table('randomizer_report')->where('raw_data_id',$value->raw_data)->update([
-                    'assign_qa_status' => 1
-                ]);
-            }
-        
     
-            return redirect('randomizer_report')->with('success', 'Randomizer saved Successfully.'); 
-        }
-        else{
-            return redirect('randomizer_report')->with('warning', 'Please Do Not Assign Samples More Than Randomizer Count'); 
-        }
-    }  
+public function final_output(Request $request)
+{
+    $request->validate([
+        'sample_id' => 'required|integer',
+        'total_count' => 'required|integer|min:0',
+        'required_count' => 'required|integer|min:1',
+    ]);
+
+    $id = (int) $request->input('sample_id');
+    $total_count = (int) $request->input('total_count');
+    $required_count = (int) $request->input('required_count');
+
+    if ($required_count > $total_count) {
+        return redirect('randomizer_report')
+            ->with('warning', 'Please do not assign more samples than the randomizer count.');
+    }
+
+    $data_1 = DB::select("
+        SELECT rd.id AS raw_data,
+               rd.call_id,
+               rd.client_id,
+               rd.process_id
+        FROM raw_data rd
+        INNER JOIN randomizer_report rr
+            ON rd.id = rr.raw_data_id
+        WHERE rr.sample_id = ?
+        ORDER BY RAND()
+        LIMIT $required_count
+    ", [$id]);
+
+    foreach ($data_1 as $value) {
+        DB::table('final_outputs')->insert([
+            'raw_data_id' => $value->raw_data,
+            'call_id' => $value->call_id,
+            'client_id' => $value->client_id,
+            'process_id' => $value->process_id,
+            'sample_id' => $id,
+        ]);
+
+        DB::table('randomizer_report')
+            ->where('sample_id', $id)
+            ->where('raw_data_id', $value->raw_data)
+            ->update([
+                'assign_qa_status' => 1,
+            ]);
+    }
+
+    return redirect('randomizer_report')
+        ->with('success', 'Randomizer saved successfully.');
+}
+
 
    
-
 
    
     public function index(){

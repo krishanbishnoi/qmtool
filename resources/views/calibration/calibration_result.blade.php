@@ -128,27 +128,27 @@ Result
 						<tr>
 						<td>{{$vvb->sub_parameter}}</td>
 						@foreach($all_calibrator as $keyc=>$valuec)
-							<td>{{$valuec['data'][$vv->id]['subp'][$vvb->id]['score']}} <span class="kt-font-brand abcd">||</span> {{$valuec['data'][$vv->id]['subp'][$vvb->id]['score_vary']}}</td>
+							<td>{{$valuec['data'][$vv->id]['subp'][$vvb->id]['score']}} <span class="kt-font-brand abcd">||</span> {{$valuec['data'][$vv->id]['subp'][$vvb->id]['score_vary'] ?? ''}}</td>
 						@endforeach
 						</tr>
 					@endforeach
 					<tr>
 						<td class="kt-bg-danger kt-font-light">{{$vv->parameter}}</td>
 						@foreach($all_calibrator as $keyc=>$valuec)
-							<td class="kt-bg-danger kt-font-light">{{$valuec['data'][$vv->id]['with_fatal_score']}} <span class="kt-font-brand">||</span> {{$valuec['data'][$vv->id]['with_fatal_score_vary']}}</td>
+							<td class="kt-bg-danger kt-font-light">{{$valuec['data'][$vv->id]['with_fatal_score']}} <span class="kt-font-brand">||</span> {{$valuec['data'][$vv->id]['with_fatal_score_vary']  ?? ''}}</td>
 						@endforeach
 					</tr>
 				@endforeach
 				<tr>
 					<td class="kt-bg-success kt-font-light">Overall With Fatal Score</td>
 					@foreach($all_calibrator as $keyc=>$valuec)
-							<td class="kt-bg-success kt-font-light">{{$valuec['with_fatal_score']}} <span class="kt-font-brand kgb">||</span> {{$valuec['with_fatal_score_vary']}}</td>
+							<td class="kt-bg-success kt-font-light">{{$valuec['with_fatal_score'] ?? ''}} <span class="kt-font-brand kgb">||</span> {{$valuec['with_fatal_score_vary'] ?? ''}}</td>
 						@endforeach
 				</tr>
 				<tr>
 					<td class="kt-bg-warning kt-font-light">Overall Without Fatal Score</td>
 					@foreach($all_calibrator as $keyc=>$valuec)
-							<td class="kt-bg-warning kt-font-light">{{$valuec['without_fatal_score']}} <span class="kt-font-brand">||</span> {{$valuec['without_fatal_score_vary']}}</td>
+							<td class="kt-bg-warning kt-font-light">{{$valuec['without_fatal_score']}} <span class="kt-font-brand">||</span> {{$valuec['without_fatal_score_vary'] ?? ''}}</td>
 						@endforeach
 				</tr>
 				<tr>

@@ -276,6 +276,8 @@ class PartnerFeedbackController extends Controller
 
     public function raw_dump_download()
     {
+        $fileNames = [];
+        $public_path = '';
 
         if (Auth::user()->parent_client == 23) {
 
@@ -303,18 +305,14 @@ class PartnerFeedbackController extends Controller
             }
             $public_path = 'processWiseFileHotstar';
         } else {
-            $fileNames[] = [];
+            // No processed-file directory is configured for this client.
         }
-
 
         return view('reports.raw_dump_download', compact('fileNames', 'public_path'));
     }
 
     public function agents_multi_audit(Request $request)
     {
-
-
-
         $data1 = [];
         $currentYear = date('Y');
         $currentMonth = date('m');

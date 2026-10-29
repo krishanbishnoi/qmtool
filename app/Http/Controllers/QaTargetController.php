@@ -311,7 +311,7 @@ class QaTargetController extends Controller
             $end_date = $end_date->toDateString();
         }
 
-       /* echo $end_date. "<br>". $start_date;
+       /* echo $next_month. "<br>". $start_date;
        dd(); */
         $data = DB::select("
             select u.*, (select sum(ap.total_spend_time) from auditor_performence_reports ap where ap.auditor_id = u.id and 
@@ -342,47 +342,54 @@ class QaTargetController extends Controller
     public function qa_performance_matrix(Request $request)
     {
         //$data = Target::where('audit_cycle_id',$request->audit_cycle_id)->where('circle_name',$request->circle)->count();
-        
-        if($request->target_month){
-           
-            $dates = explode("/", $request->target_month);
-            $yy = $dates[1];
-            $mm = $dates[0];
-            $month = $yy. "-" . $mm;
-            $start_date = $yy. "-" . $mm. "-01";
-            $end_date = $yy. "-" . $mm. "-31";
-            $target_month = $mm. "/" . $yy;
-            
-        }
-        else{
-            $start_date = date('yy-02-01');
-            $dates = explode("-", $start_date);
-            $yy = $dates[0];
-            $mm = $dates[1];
+ if ($request->filled('target_month')) {
+    $selectedDate = Carbon::createFromFormat(
+        '!m/Y',
+        $request->target_month
+    );
+} else {
+    $selectedDate = Carbon::create(now()->year, 2, 1);
+}
 
-            $month = $yy. "-" . $mm;
-            $start_date = $yy. "-" . $mm. "-01";
-            $end_date = $yy. "-" . $mm. "-31";
-            $target_month = $mm. "/" . $yy;
+$start_date = $selectedDate->copy()
+    ->startOfMonth()
+    ->toDateString();
+
+$next_month = $selectedDate->copy()
+    ->startOfMonth()
+    ->addMonth()
+    ->toDateString();
+
+$month = $selectedDate->format('Y-m');
+$target_month = $selectedDate->format('m/Y');
+     
+
+// dd([
+//     'target_month_request' => $request->target_month,
+//     'start_date' => $start_date,
+//     'end_date' => $end_date ?? null,
+//     'next_month' => $next_month,
+//     'month' => $month,
+//     'target_month' => $target_month,
+// ]);
 
 
-
-        }
-
-       /* echo $end_date. "<br>". $start_date;
+       /* echo $next_month. "<br>". $start_date;
        dd(); */
+
+    //    dump()
         $data = DB::select("
             select u.*, (select sum(ap.total_spend_time) from auditor_performence_reports ap where ap.auditor_id = u.id and 
-            start_date >= '". $start_date ."' and start_date <= '". $end_date ."'
+            start_date >= '". $start_date ."' and start_date < '". $next_month ."'
             ) as total_time,
             (select sum(ap.audit_done) from auditor_performence_reports ap where auditor_id = u.id and 
-            start_date >= '". $start_date ."' and start_date <= '". $end_date ."') as total_audits,
+            start_date >= '". $start_date ."' and start_date < '". $next_month ."') as total_audits,
             (select count(distinct left(a.audit_date, locate(' ', a.audit_date, 1)-1)) from audits a where audited_by_id = u.id and 
-            audit_date >= '". $start_date ."' and audit_date <= '". $end_date ."') as present_days,
+            audit_date >= '". $start_date ."' and audit_date < '". $next_month ."') as present_days,
             (select count(ad.id) from audits ad where ad.audited_by_id = u.id and 
-            ad.audit_date >= '". $start_date ."' and ad.audit_date <= '". $end_date ."') as audits,
+            ad.audit_date >= '". $start_date ."' and ad.audit_date < '". $next_month ."') as audits,
             (select count(aud.id) from audits aud where aud.audited_by_id = u.id and 
-            aud.audit_date >= '". $start_date ."' and aud.audit_date <= '". $end_date ."' and aud.qc_date IS NOT NULL) as qc_audits,
+            aud.audit_date >= '". $start_date ."' and aud.audit_date < '". $next_month ."' and aud.qc_date IS NOT NULL) as qc_audits,
 
             (select sum(qt.qa_target) from qa_targets qt where qt.qa_id = u.id and qt.deleted != 1 and 
             qt.target_month = '". $target_month ."') as qa_target,
@@ -404,16 +411,16 @@ class QaTargetController extends Controller
 
         $three_psn = DB::select("
         select u.*, (select sum(ap.total_spend_time) from auditor_performence_reports ap where ap.auditor_id = u.id and 
-        start_date >= '". $start_date ."' and start_date <= '". $end_date ."'
+        start_date >= '". $start_date ."' and start_date < '". $next_month ."'
         ) as total_time,
         (select sum(ap.audit_done) from auditor_performence_reports ap where auditor_id = u.id and 
-        start_date >= '". $start_date ."' and start_date <= '". $end_date ."') as total_audits,
+        start_date >= '". $start_date ."' and start_date < '". $next_month ."') as total_audits,
         (select count(distinct left(a.audit_date, locate(' ', a.audit_date, 1)-1)) from audits a where audited_by_id = u.id and 
-        audit_date >= '". $start_date ."' and audit_date <= '". $end_date ."') as present_days,
+        audit_date >= '". $start_date ."' and audit_date < '". $next_month ."') as present_days,
         (select count(ad.id) from audits ad where ad.audited_by_id = u.id and 
-        ad.audit_date >= '". $start_date ."' and ad.audit_date <= '". $end_date ."') as audits,
+        ad.audit_date >= '". $start_date ."' and ad.audit_date < '". $next_month ."') as audits,
         (select count(aud.id) from audits aud where aud.audited_by_id = u.id and 
-        aud.audit_date >= '". $start_date ."' and aud.audit_date <= '". $end_date ."' and aud.qc_date IS NOT NULL) as qc_audits,
+        aud.audit_date >= '". $start_date ."' and aud.audit_date < '". $next_month ."' and aud.qc_date IS NOT NULL) as qc_audits,
 
         (select sum(qt.qa_target) from qa_targets qt where qt.qa_id = u.id and qt.deleted != 1 and 
         qt.target_month = '". $target_month ."') as qa_target,

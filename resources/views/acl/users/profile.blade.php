@@ -24,8 +24,15 @@ Profile
 
       <!--begin::Form-->
       	
-        <form method="post" action="{{ action('UserController@updateProfile', Crypt::encrypt($rdata->id)) }}"   accept-charset="UTF-8" class="kt-form" role="form" data-toggle="validator" enctype="multipart/form-data" autocomplete="off">
-        @method('PATCH')
+      <form method="POST"
+      action="{{ route('profile.update', ['id' => Crypt::encrypt($rdata->id)]) }}"
+      accept-charset="UTF-8"
+      class="kt-form"
+      role="form"
+      data-toggle="validator"
+      enctype="multipart/form-data"
+      autocomplete="off">
+        {{-- @method('PATCH') --}}
         @csrf
 
         <div class="kt-portlet__body">

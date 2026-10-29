@@ -31,7 +31,8 @@ class ClusterAccessController extends Controller
         $partner = PartnerMapping::select('partners.id','partners.name')->join('partners','partner_mappings.partner_id','partners.id')->where('partner_mappings.client_id',$user_id)->get();
         $location = LocationMapping::select('regions.id','regions.name')->join('regions','location_mappings.location_id','regions.id')->where('location_mappings.client_id',$user_id)->get();
         //$lob = LobMapping::where('user_id',$user_id)->get();
+         
 
-        return view('role_mapping.details',compact('clients','process','partner','location','lob'));
+        return view('role_mapping.details',compact('clients','process','partner','location'));
     }
 }

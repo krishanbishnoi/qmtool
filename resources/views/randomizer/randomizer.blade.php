@@ -115,7 +115,7 @@ table.dataTable thead .sorting_desc_disabled:before {
 				</td>
 				<td style="text-align: center">   
 					@if(count($sample->final_sample) == 0)
-					<input type="number" class="form-control" name = "required_count" min="0" >
+					<input type="number" class="form-control" name = "required_count" min="1" max="{{ count($sample->total_sample) }}" required >
 					@else
 					{{count($sample->final_sample)}}
 					@endif

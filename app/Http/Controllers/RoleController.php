@@ -60,6 +60,7 @@ class RoleController extends Controller
         $createPost->name         = $request->name;
         $createPost->display_name = $request->display_name;
         $createPost->description  = $request->description;
+        $createPost->company_id   = 0;
         $createPost->save();
         return redirect('role')->with('success', 'Role Created Successfully');
     }

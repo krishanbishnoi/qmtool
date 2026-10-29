@@ -126,9 +126,22 @@ Parameter Compliance Report
                   	<td style="color:{{$color}}">{{$subPara['name']}}</td>
                   	<?php $sco=0; $scr=0; ?>
                   	@foreach($final_data['despositions'] as $v1)
-                  	<?php  $sco+=$subPara['data'][$v1]['scored']; 
-                  		$scr+=$subPara['data'][$v1]['scorable']; ?>
-                    <td style="color:{{$color}}">{{$subPara['data'][$v1]['score']}} % || {{$subPara['data'][$v1]['fatal_count']}}</td>
+                  	<?php 
+					  $item = $subPara['data'][$v1] ?? [
+            'scored' => 0,
+            'scorable' => 0,
+            'score' => 0,
+            'fatal_count' => 0,
+        ];
+		 $sco += $item['scored'];
+        $scr += $item['scorable'];
+    ?>
+	 <td style="color:{{$color}}">
+        {{ $item['score'] }} % || {{ $item['fatal_count'] }}
+    </td>
+					{{-- $sco+=$subPara['data'][$v1]['scored']; 
+                  		$scr+=$subPara['data'][$v1]['scorable']; ?> --}}
+                    {{-- <td style="color:{{$color}}">{{$subPara['data'][$v1]['score']}} % || {{$subPara['data'][$v1]['fatal_count']}}</td> --}}
                   	@endforeach
                   	<td style="color:{{$color}}"><?php //$subPara['data']['total']
                   	if($scr != 0) { echo round(($sco/$scr)*100); } else {echo 0;} ?> %</td>
