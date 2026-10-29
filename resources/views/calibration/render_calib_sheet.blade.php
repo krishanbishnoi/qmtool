@@ -67,20 +67,12 @@
 
     <div class="kt-content  kt-grid__item kt-grid__item--fluid" id="kt_content">
 
-        {{-- <p>Due date: {{ $calibration_data->due_date }}</p>
-        <p>Today's date: {{ date('Y-m-d') }}</p> --}}
-
-        {{-- @if ($calibrator_data->status == 1)
-            <h6>You have already submited this calibration.</h6>
-        @elseif($calibration_data->due_date < date('Y-m-d'))
-            <h6>Oop's calibration expired.</h6>
-        @else --}}
-            
-		@if($calibrator_data->status == 1)
-    <h6>You have already submitted this calibration.</h6>
-@else
-    {{-- Your existing detail page content --}}
-
+      
+   @if($calibrator_data->status==1)
+		<h6>You have already submited this calibration.</h6>
+		@elseif($calibration_data->due_date < date('Y-m-d'))
+		<h6>Oop's calibration expired.</h6>
+		@else
 		
 		<div id="app">
                 <div class="row">
@@ -104,7 +96,7 @@
                     calibrator-id="{{ $calibrator_data->id }}"></calibration-sheet-component>
 
             </div>
-        @endif
+      	@endif
     </div>
 
     <script>
