@@ -102,7 +102,7 @@ Route::middleware(['auth'])->group(function () {
 
 	Route::get('profile','UserController@profile');
 
-	Route::patch('update_profile/{id}','UserController@updateprofile');
+	Route::patch('update_profile/{id}','UserController@updateProfile');
 
 	
 

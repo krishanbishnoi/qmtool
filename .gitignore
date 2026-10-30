@@ -18,3 +18,14 @@ yarn-error.log
 /public/AgentfRLastMonth1.xls
 /public/processWiseFile/BFL_-BOT_-Audit_Sheet-V3_0_qm_sheet_3_audit_report.xls
 /public/processWiseFile/Partner_QA_Audit_Sheet_-_BFL_V1_3_qm_sheet_1_audit_report.xls
+
+
+# Large reports and log files
+/error_log
+/monthDunp.xls
+/public/error_log
+/public/AgentfeedbackReport1.xls
+/public/AgentfRLastMonth1.xls
+
+/public/processWiseFile/BFL_-BOT_-Audit_Sheet-V3_0_qm_sheet_3_audit_report.xls
+/public/processWiseFile/Partner_QA_Audit_Sheet_-_BFL_V1_3_qm_sheet_1_audit_report.xls

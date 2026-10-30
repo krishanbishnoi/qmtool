@@ -43,7 +43,7 @@ class AllocationController extends Controller
 {
   public function qtl_qa()
   {
-      view('allocation.qtl_qa');
+    return view('allocation.qtl_qa');
   }
 
   public function testChart()

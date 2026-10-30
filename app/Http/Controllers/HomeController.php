@@ -18557,6 +18557,9 @@ class HomeController extends Controller
 
 
 
+<<<<<<< HEAD
+        $all_params = QmSheetParameter::where('qm_sheet_id', $latest_qm_sheet_id)->where('is_non_scoring', 0)->with('qm_sheet_sub_parameter')->get();
+=======
         // Audits in the selected date range may have been completed on older QM sheet
         // versions. Include those sheets so their parameter IDs have report buckets too.
         $report_qm_sheet_ids = $audit_data->pluck('qm_sheet_id')
@@ -18568,6 +18571,7 @@ class HomeController extends Controller
             ->where('is_non_scoring', 0)
             ->with('qm_sheet_sub_parameter')
             ->get();
+>>>>>>> 8c835319003fefff9b68847f201d4b52fea2d4fe
 
 
 
@@ -18688,34 +18692,36 @@ class HomeController extends Controller
             $temp_param_data[$value->id]['temp_tot_scorable'] = $temp_tot_scorable;
         }
 
+
+
+
+
+
+
         foreach ($audit_data as $key => $value) {
+
+
 
             foreach ($value->audit_results->where('is_non_scoring', 0) as $keyb => $valueb) {
 
-                $parameter_id = $valueb->parameter_id;
-                $sub_parameter_id = $valueb->sub_parameter_id;
-                $disposition = $value->raw_data->disposition;
+                $temp_param_data[$valueb->parameter_id]['data'][$valueb->sub_parameter_id]['data'][$value->raw_data->disposition]['scored'] += $valueb->score;
 
-                // Skip results whose parameter mapping is missing from all relevant sheets.
-                if (!isset($temp_param_data[$parameter_id]['data'][$sub_parameter_id]['data'][$disposition])) {
+                $temp_param_data[$valueb->parameter_id]['data'][$valueb->sub_parameter_id]['data'][$value->raw_data->disposition]['scorable'] += $valueb->after_audit_weight;
 
-                    continue;
-                }
+                $temp_param_data[$valueb->parameter_id]['data'][$valueb->sub_parameter_id]['data'][$value->raw_data->disposition]['result_id'][] = $valueb->id;
 
-                $temp_param_data[$parameter_id]['data'][$sub_parameter_id]['data'][$disposition]['scored'] += $valueb->score;
 
-                $temp_param_data[$parameter_id]['data'][$sub_parameter_id]['data'][$disposition]['scorable'] += $valueb->after_audit_weight;
-
-                $temp_param_data[$parameter_id]['data'][$sub_parameter_id]['data'][$disposition]['result_id'][] = $valueb->id;
 
                 if ($valueb->is_critical) {
 
-                    $temp_param_data[$parameter_id]['data'][$sub_parameter_id]['data'][$disposition]['fatal_count'] += 1;
+                    $temp_param_data[$valueb->parameter_id]['data'][$valueb->sub_parameter_id]['data'][$value->raw_data->disposition]['fatal_count'] += 1;
                 }
             }
         }
 
-        // Set scores
+
+
+        // set scores
 
         $dispostion = [];
 
